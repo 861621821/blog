@@ -133,5 +133,5 @@ _提示：Rule Editor里METHOD:POST EXACT:表示精确匹配，把它删掉可�
 <img src="https://861621821.github.io/repository/img/fiddler/保存.png" ><br> 
 ##### 六、写在最后
 <p style="text-indent:2em">
-  Fiddler是一个很强大的工具，据说出过新闻说有人利用抓包软件低价充话费而获刑，我猜用的可能就是Fiddler 😂 😂 😂。我也只算入门，这篇文章仅仅是教新手上手使用，如果有精通Fiddler的大佬千万不要拿来做不法之事。
+  Fiddler是一个很强大的工具，据说出过新闻说有人利用抓包软件低价充话费而获刑，我猜用可能就是Fiddler 😂 😂 😂。我也只算入门，这篇文章仅仅是教新手上手使用，如果有精通Fiddler的大佬千万不要拿来做不法之事。
 </p> 
