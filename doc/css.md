@@ -1,3 +1,9 @@
+<!--
+ * @title: page title
+ * @author: liuwei
+ * @LastEditTime: 2021-01-05 09:15:19
+ * @desc: Description
+-->
 ### CSS技巧  
 ##### 1.左图右文  
 ``` html
@@ -68,3 +74,32 @@ img{
 <b>效果(使用前与使用后)：</b>  
 <img src="https://861621821.github.io/repository/img/css/人01.jpg" style="width: 100px; height: 100px">
 <img src="https://861621821.github.io/repository/img/css/人01.jpg" style="object-fit:cover; width: 100px; height: 100px">  
+
+##### 5.美化滚动条
+``` css
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: rgba(#101F1C, 0.1);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(#101F1C, 0.5);
+  background-clip: padding-box;
+  min-height: 28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(#101F1C, 1);
+}
+```
