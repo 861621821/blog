@@ -1,10 +1,10 @@
 {
   "name": "Minimal app to try PWA",
-  "short_name": "Minimal PWA",
+  "short_name": "xilan",
   "display": "standalone",
   "start_url": "/blog",
-  "theme_color": "#8888ff",
-  "background_color": "#aaaaff",
+  "theme_color": "#c8c8e6",
+  "background_color": "#f1bc96",
   "icons": [
     {
       "src": "icon.png",

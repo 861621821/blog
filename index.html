@@ -20,6 +20,12 @@
   <!-- 引入组件库 -->
   <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.13.2/index.js"></script>
   <script>
+    if (navigator.serviceWorker != null) {
+      navigator.serviceWorker.register('sw.js')
+      .then(function(registartion){
+        console.log('支持sw:',registartion.scope)
+      })
+    }
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
