@@ -1,9 +1,3 @@
-<!--
- * @title: page title
- * @author: liuwei
- * @LastEditTime: 2020-12-30 17:11:31
- * @desc: Description
--->
 # 开发文档
 [Markdown教程](https://www.runoob.com/markdown/md-tutorial.html)  
 1.全局安装`npm i docsify-cli -g`  
