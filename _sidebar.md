@@ -1,2 +1,4 @@
 - [Web开发调试利器-Fiddler](doc/fiddler.md)
 - [CSS](doc/css.md)
+- [vue-quill-editor粘贴图片](doc/quill.md)
+- [防抖与节流](doc/防抖与节流.md)

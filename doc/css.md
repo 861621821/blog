@@ -1,9 +1,3 @@
-<!--
- * @title: page title
- * @author: liuwei
- * @LastEditTime: 2021-01-05 09:15:19
- * @desc: Description
--->
 ### CSS技巧  
 ##### 1.左图右文  
 ``` html
