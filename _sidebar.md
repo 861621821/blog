@@ -1,4 +1,12 @@
-- [Web开发调试利器-Fiddler](doc/fiddler.md)
-- [CSS](doc/css.md)
-- [vue-quill-editor粘贴图片](doc/quill.md)
-- [防抖与节流](doc/防抖与节流.md)
+- 组件
+  - [Table表格](doc/table.md)
+  - [微信支付二维码](doc/wxpayqr.md)
+  - [省市区三级联动](doc/cascader.md)
+  - [CSS3跑马灯](doc/marquee.md)
+
+- 文档
+  - [Web开发调试利器--Fiddler](doc/fiddler.md)
+  - [手写防抖与节流](doc/防抖与节流.md)
+  - [CSS](doc/css.md)
+  - [给vue-quill-editor添加粘贴图片功能](doc/quill.md)
+  - [算法](doc/algorithm.md)
