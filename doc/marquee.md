@@ -2,7 +2,7 @@
 基于[create-keyframe-animation](https://www.npmjs.com/package/create-keyframe-animation)
 >文本跑马灯，支持单条文本循环、多条文本循环  
 #### 示例
-<img src="http://xilan-lw.gitee.io/zero-one-document/images/component/跑马灯.gif" >   
+<img src="https://861621821.github.io/blog/images/component/跑马灯.gif" >   
 
 !> <b style="color: #ff5d5d">gif效果图卡顿是录屏软件导致的，由于是css3动画，实际播放非常丝滑，请放心使用。</b>
 #### 用法
