@@ -48,25 +48,27 @@ export default {
 #### Events 
 | 事件名  | 说明    | 参数 |
 | ---- |  ----  | ----  |
-| events | 监听内置操作列方法的事件 | event |
-| searchChange  | 过滤条件改变时触发的事件  | params  |
-| sizeChange  | 分页尺寸改变时触发的事件  | size  |
-| currentChange  | 当前页面改变时触发的事件  | page  |
-| selectionChange  | 当选择项发生变化时会触发该事件  | selection  |
+| events | 监听内置操作列方法的事件 | `event` |
+| searchChange  | 过滤条件改变时触发的事件  | `params`  |
+| sizeChange  | 分页尺寸改变时触发的事件  | `size`  |
+| currentChange  | 当前页面改变时触发的事件  | `page`  |
+| selectionChange  | 当选择项发生变化时会触发该事件  | `selection`  |
+| sortChange  | 当表格的排序条件发生变化的时候会触发该事件  | `{column, prop, order}`  |
 
 #### option  
 | 配置项  | 类型   | 说明 |  默认值 |
 | ---- |  ----  | ----  | ----  |
 | tableKey | String | 表格的key | - |
+| tableProps | Object | el-table的属性 | - |
 | setting | Boolean | 是否可对表格设置 | false |
 | showSelection | Boolean | 是否显示选择列 | false |
 | showIndex | Boolean | 是否显示序号 | false |
-| operation | String/Array | 是否显示操作栏，为hide时隐藏，内置：`detail`, `edit`, `delete` | - |
+| operation | String/Array | 是否显示操作栏，为`hide`时隐藏，内置：`detail`, `edit`, `delete` | - |
 | operationWidth | String | 操作列的宽度 | 自适应 |
 | levitate | Boolean | 是否开启悬浮分页，一个页面多个表格组件开启悬浮，会出现异常 | true |
 | scrollEl | String | 监听滚动元素的选择器，详情参考[scrollEl](/doc/table?id=scrollEl)说明 | 默认为表格组件的父元素 |
 | column | Array | 列数据[column](/doc/table?id=column) | - |
-| layout | String | 分页组件功能，同[el-pagination](https://element.eleme.cn/#/zh-CN/component/pagination) | 完整分页 |
+| layout | String | 分页组件功能，同[el-pagination](https://element.eleme.cn/#/zh-CN/component/pagination)，为`hide`时隐藏 | 完整分页 |
 
 #### column  
 | 配置项 | 类型   | 说明 | 默认值 |
@@ -84,6 +86,7 @@ export default {
 | default |  String  | 表单默认值 | - |
 | placeholder |  String  | 表单原生属性placeholder | 请输入/请选择 |
 | slot |  String  | 开启插槽，值为插槽name | - |
+| headerSlot |  String  | 开启表头插槽，值为插槽name | - |
 | columnProps |  Object  | 表格列的属性，可以是任何el-table支持的属性 | - |
 | formItemProps |  Object  | 表单的属性，可以是任何表单支持的属性 | - |
 | source |  Array/Function  | 下拉选项的数据源：数组形式表示手动传入选项；方法形式表示接口形式动态获取选项 | - |

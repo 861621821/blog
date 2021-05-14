@@ -9,4 +9,4 @@
   - [手写防抖与节流](doc/防抖与节流.md)
   - [CSS](doc/css.md)
   - [给vue-quill-editor添加粘贴图片功能](doc/quill.md)
-  - [算法](doc/algorithm.md)
+  - [算法](doc/算法.md)
