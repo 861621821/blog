@@ -3,7 +3,7 @@
 > 省市区三级联动组件，支持搜索，默认显示全国省市区信息，如需显示国外或国内部分省市区信息，可通过data字段传入
 #### 示例
 
-<img src="https://861621821.github.io/blog/images/component/省市区.gif">
+<img src="https://861621821.github.io/blog/images/component/cascader.gif">
 
 #### npm安装
 ``` js
