@@ -60,6 +60,7 @@ export default {
 | ---- |  ----  | ----  | ----  |
 | tableKey | String | 表格的key | - |
 | tableProps | Object | el-table的属性 | - |
+| labelWidth | String | 搜索表单的label宽度 | 70px |
 | setting | Boolean | 是否可对表格设置 | false |
 | showSelection | Boolean | 是否显示选择列 | false |
 | showIndex | Boolean | 是否显示序号 | false |
