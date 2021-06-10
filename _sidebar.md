@@ -12,5 +12,6 @@
   - [给 vue-quill-editor 添加粘贴图片功能](doc/quill.md)
   - [算法](doc/algorithm.md)
   - [让Tomcat支持history模式](doc/tomcat-history.md)
+  - [通过npm简化本地文件的引用](doc/npm.md)
 
 
