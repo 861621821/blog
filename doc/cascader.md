@@ -1,22 +1,28 @@
 # 省市区三级联动
+
 基于[el-popover](https://element.eleme.cn/#/zh-CN/component/popover)
-> 省市区三级联动组件，支持搜索，默认显示全国省市区信息，如需显示国外或国内部分省市区信息，可通过data字段传入
+
+> 省市区三级联动组件，支持搜索，默认显示全国省市区信息，如需显示国外或国内部分省市区信息，可通过 data 字段传入
+
 #### 示例
 
-<img src="https://861621821.github.io/blog/images/component/cascader.gif">
+<img src="https://xilanjs.com/images/component/cascader.gif">
 
-#### npm安装
-``` js
+#### npm 安装
+
+```js
 npm i xl-cascader --save
 ```
-#### 开始使用
-``` js
-import xlCascader from 'xl-cascader'
 
-Vue.use(xlCascader)
+#### 开始使用
+
+```js
+import xlCascader from 'xl-cascader';
+
+Vue.use(xlCascader);
 ```
 
-### 基础用法 
+### 基础用法
 
 ```html
 <template>
@@ -31,27 +37,30 @@ Vue.use(xlCascader)
 </template>
 <script>
   export default {
-    data () {
+    data() {
       return {
         form: {
           name: '',
-          ssq: []
-        }
-      }
-    }
-  }
+          ssq: [],
+        },
+      };
+    },
+  };
 </script>
 ```
 
 ### Attributes
-| 参数 | 类型 | 说明 | 可选值 | 默认值 |
-| - | - | - | - | - |
-| size | string | 用于控制该表单内组件的尺寸 | `medium`  `small`  `mini` | - |
-| clearable | boolean | 是否可清空 | - | true |
-| height | number | 弹出框的高度 | - | 300 |
-| data | array | 默认情况下展示全国所有省市区，如果只想展示部分，手动传入 | - | - |
+
+| 参数      | 类型    | 说明                                                     | 可选值                  | 默认值 |
+| --------- | ------- | -------------------------------------------------------- | ----------------------- | ------ |
+| size      | string  | 用于控制该表单内组件的尺寸                               | `medium` `small` `mini` | -      |
+| clearable | boolean | 是否可清空                                               | -                       | true   |
+| height    | number  | 弹出框的高度                                             | -                       | 300    |
+| data      | array   | 默认情况下展示全国所有省市区，如果只想展示部分，手动传入 | -                       | -      |
+
 #### 自定义数据源
-``` html
+
+```html
 <template>
   <xl-cascader v-model="ssq" :data="ssqData"></xl-cascader>
 </template>

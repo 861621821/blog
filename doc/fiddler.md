@@ -17,16 +17,16 @@
 <p style="text-indent:2em">
   官网下载地址：<a href="https://www.telerik.com/download/fiddler" target="_blank">https://www.telerik.com/download/fiddler</a>；下载完成后运行安装，一路next就可以了。安装完之后打开，大概长这个样子
 </p>
-  <img src="https://861621821.github.io/blog/images/fiddler/all.png" >
+  <img src="https://xilanjs.com/images/fiddler/all.png" >
 <p style="text-indent:2em">
   我们需要简单的设置一下：点击导航栏Tools --> Options...<br>
 </p>
-  <img src="https://861621821.github.io/blog/images/fiddler/setting1.png" >
-  <img src="https://861621821.github.io/blog/images/fiddler/setting2.png" ><br>
+  <img src="https://xilanjs.com/images/fiddler/setting1.png" >
+  <img src="https://xilanjs.com/images/fiddler/setting2.png" ><br>
 <p style="text-indent:2em">
   后面这个是让Fiddler可以抓取手机的包，<b>前提是手机与电脑在同一局域网</b>，另外需要手机设置代理，打开手机wifi设置，长按连接的局域网wifi，选择修改网络-显示高级选项-代理-手动。在开发H5页面的时候非常有用。<br>
 </p>
-  <img src="https://861621821.github.io/blog/images/fiddler/agent.jpg" style="width: 400px" ><br>
+  <img src="https://xilanjs.com/images/fiddler/agent.jpg" style="width: 400px" ><br>
 <p style="text-indent:2em">
   点击保存，在手机上打开任意网址试一试吧。    
 </p>
@@ -38,7 +38,7 @@
 <p style="text-indent:2em">
   Inspectors栏功能跟浏览器的控制台的Network一样，点击任意请求，右边就会显示对应请求以及响应包的信息。
 </p>
-  <img src="https://861621821.github.io/blog/images/fiddler/inspectors.png" ><br>
+  <img src="https://xilanjs.com/images/fiddler/inspectors.png" ><br>
 
 ###### AutoResponder
 
@@ -48,36 +48,36 @@
 
 > 1.首先先抓取到请求，鼠标选择左边任意请求并拖至右边（注意这时候右边要处于 AutoResponder 栏位）
 
-<img src="https://861621821.github.io/blog/images/fiddler/step1.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/step1.png" ><br>
 
 > 2.鼠标右键点击规则，点击 Edit Response，选择 TextView，编辑你要改的数据，<strong>点击 Save</strong>
 
-  <img src="https://861621821.github.io/blog/images/fiddler/step3.png" >
-  <img src="https://861621821.github.io/blog/images/fiddler/step2.png" ><br>
+  <img src="https://xilanjs.com/images/fiddler/step3.png" >
+  <img src="https://xilanjs.com/images/fiddler/step2.png" ><br>
 
 _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可以模糊匹配。_
 
-<img src="https://861621821.github.io/blog/images/fiddler/accurate.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/accurate.png" ><br>
 
 <p style="text-indent:2em">
   到这里，一个简单的改包就完成了，重新刷新页面看下效果，正常情况你的页面对应的地方就变成你改的数据了。左边匹配成功的请求会被标记为淡紫色背景，如果没有检查下Enable rules、Unmatched requests passthrough是否勾选了，或者查看下面的特殊情况。
 </p>
-<img src="https://861621821.github.io/blog/images/fiddler/subcontracting.png" ><br>
-<img src="https://861621821.github.io/blog/images/fiddler/succData.png" ><br>
-<img src="https://861621821.github.io/blog/images/fiddler/result.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/subcontracting.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/succData.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/result.png" ><br>
 
 > 3.并不是只能处理接口数据，静态资源也是可以修改的。比如 css，js，修改线上 bug 后，不用部署直接替换文件就可以看到效果了。
 
-<img src="https://861621821.github.io/blog/images/fiddler/static.png" >
+<img src="https://xilanjs.com/images/fiddler/static.png" >
 
-<img src="https://861621821.github.io/blog/images/fiddler/css.png" >
+<img src="https://xilanjs.com/images/fiddler/css.png" >
 
 > 4.特殊情况
 
 - <p>编辑的时候发现是encode或者乱码状态，导致不能编辑</p>
-  <img src="https://861621821.github.io/blog/images/fiddler/garbled.png" ><br>
+  <img src="https://xilanjs.com/images/fiddler/garbled.png" ><br>
   <p>解决方法是在拖到右边前，先点击该请求，可以看到显示"Response body is encoded.Click to decode."，点击解码，然后再完成后面的操作。</p>
-  <img src="https://861621821.github.io/blog/images/fiddler/decode.png" ><br>
+  <img src="https://xilanjs.com/images/fiddler/decode.png" ><br>
 - <p>在正式请求前有一次预请求options，导致不能匹配到我们设置的规则</p>
   <p>解决方法是把那条预请求也拖到右边</p>
 - <p>所有操作都正确，就是抓不到任何包：检查是否设置了其他代理，比如打开了谷歌上网助手，这类代理工具会影响fiddler抓包</p>
@@ -87,7 +87,7 @@ _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可
 <p style="text-indent:2em">
   Composer功能有点类似于postman，多用于测试接口。界面很简单，一目了然。编辑好之后点击Execute执行（这个也可以从左边拖过来）。
 </p>  
-<img src="https://861621821.github.io/blog/images/fiddler/composer.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/composer.png" ><br>
 
 ###### FiddlerScript
 
@@ -97,10 +97,10 @@ _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可
 
 > 修改脚本前建议备份一下，免的玩坏了<br>
 
-<img src="https://861621821.github.io/blog/images/fiddler/script1.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/script1.png" ><br>
 我这个例子是不管点击任何文章都显示 id 为 10030 的文章内容，只是为了达到这个效果，脚本可能写的不优雅，勿喷。  
 再举一个栗子，开发过程中有多个后台大佬给你写接口，在他们合并代码前，如果想同时调用 A 和 B 大佬的本地接口，除非写死请求的地址，否则应该是很困难的。利用 Fiddler 可以这样，不用改任何代码，方便又快捷  
-<img src="https://861621821.github.io/blog/images/fiddler/FiddlerScript.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/FiddlerScript.png" ><br>
 
 ###### 设置断点
 
@@ -108,7 +108,7 @@ _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可
   Fiddler提供了http请求断点机制，我们可以在请求发出前以及服务器返回数据后设置断点。可以通过点击按钮或者命令的方式设置断点，利用断点可以修改请求包或者响应包。
 </p>
 
-<img src="https://861621821.github.io/blog/images/fiddler/point0.png" >
+<img src="https://xilanjs.com/images/fiddler/point0.png" >
 
 > 命令方式
 >
@@ -121,17 +121,17 @@ _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可
 
 - 请求发出前断点
 
-图标状态为<img src="https://861621821.github.io/blog/images/fiddler/before.png" class="nowh">
+图标状态为<img src="https://xilanjs.com/images/fiddler/before.png" class="nowh">
 
-<img src="https://861621821.github.io/blog/images/fiddler/point3.png" >
+<img src="https://xilanjs.com/images/fiddler/point3.png" >
 
 执行完上述操作后可以看到，请求的参数已经被我们篡改了，response 返回篡改后 id 的数据。
 
 - 数据返回后断点
 
-图标状态为<img src="https://861621821.github.io/blog/images/fiddler/after.png" class="nowh">
+图标状态为<img src="https://xilanjs.com/images/fiddler/after.png" class="nowh">
 
-<img src="https://861621821.github.io/blog/images/fiddler/point4.png" >
+<img src="https://xilanjs.com/images/fiddler/point4.png" >
 
 执行完上述操作后可以看到，response 被我们篡改了，这样就可以模拟任何我们想要的数据。
 
@@ -141,11 +141,11 @@ _提示：Rule Editor 里 METHOD:POST EXACT:表示精确匹配，把它删掉可
 - Filter - Show only if URL contains 只显示符合的请求
 - 模拟弱网
 
-<img src="https://861621821.github.io/blog/images/fiddler/weak.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/weak.png" ><br>
 
 - 选中请求右键保存，一般测试人员用来保留现场
 
-<img src="https://861621821.github.io/blog/images/fiddler/save.png" ><br>
+<img src="https://xilanjs.com/images/fiddler/save.png" ><br>
 
 ##### 六、写在最后
 
