@@ -11,6 +11,5 @@
   - [CSS](doc/css.md)
   - [给 vue-quill-editor 添加粘贴图片功能](doc/quill.md)
   - [算法](doc/algorithm.md)
-  - [让Tomcat支持history模式](doc/tomcat-history.md)
-
-
+  - [让 Tomcat 支持 history 模式](doc/tomcat-history.md)
+  - [Vue3](doc/vue3.md)
