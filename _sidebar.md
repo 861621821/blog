@@ -13,3 +13,4 @@
   - [算法](doc/algorithm.md)
   - [让 Tomcat 支持 history 模式](doc/tomcat-history.md)
   - [Vue3](doc/vue3.md)
+  - [通过 npm 简化本地文件的引用](doc/npm.md)
