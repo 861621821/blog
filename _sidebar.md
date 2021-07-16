@@ -4,6 +4,7 @@
   - [微信支付二维码](doc/wxpayqr.md)
   - [省市区三级联动](doc/cascader.md)
   - [CSS3 跑马灯](doc/marquee.md)
+  - [微信表情](doc/emoji.md)
 
 - 文档
   - [Web 开发调试利器--Fiddler](doc/fiddler.md)

@@ -1,6 +1,7 @@
 # Table表格
 基于[el-table](https://element.eleme.cn/#/zh-CN/component/table) [el-form](https://element.eleme.cn/#/zh-CN/component/form) [el-pagination](https://element.eleme.cn/#/zh-CN/component/pagination) 
 
+[代码地址](https://github.com/861621821/repository/tree/master/table)
 #### 快速上手
 1.引入ly-table的mixin文件，并混入
 

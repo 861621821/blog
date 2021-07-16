@@ -10,7 +10,7 @@
 
 !> <b style="color: #ff5d5d">gif 效果图卡顿是录屏软件导致的，由于是 css3 动画，实际播放非常丝滑，请放心使用。</b>
 
-#### 用法
+#### 使用
 
 ```html
 <xl-marquee :speed="5" :delay="1000" :text="text"></xl-marquee>
